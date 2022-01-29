@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="3dp"
+    app:strokeColor="#0058A6"
+    app:cardBackgroundColor="#AAD9FF"
+    app:strokeWidth="3dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="460dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-35dp"
+        android:layout_marginTop="-30dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="3dp"
+        app:strokeColor="#0058A6"
+        app:cardBackgroundColor="#AAD9FF"
+        app:strokeWidth="3dp">
+
+
+        <LinearLayout
+            android:layout_width="379dp"
+            android:layout_marginLeft="41dp"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="DATA PELANGGAN"
+                android:textAllCaps="true"
+                android:textColor="#0058A6"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="68dp"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:orientation="vertical">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="1dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:background="@drawable/cell_shape"
+                android:text="Blok" />
+
+            <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="Nama"
+                android:layout_weight="0.5"
+            android:layout_gravity="center"
+                android:background="@drawable/cell_shape"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:text="Username"
+            android:background="@drawable/cell_shape"
+            android:layout_weight="0.5" android:layout_gravity="center"
+            android:gravity="center"/>
+
+        </LinearLayout>
+
+        </TableRow>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </TableLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" />
+
+
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,7 @@
+Executable : C:\Users\Enrico\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
+arguments : 
+-C
+D:\Project\admin\PembayaranAir\sdk\.cxx\Debug\5c6g5439\arm64-v8a
+opencv_jni_shared
+jvmArgs : 
+

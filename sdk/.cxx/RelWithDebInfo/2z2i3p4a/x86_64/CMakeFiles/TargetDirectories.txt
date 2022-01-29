@@ -1,0 +1,3 @@
+D:/Project/admin/PembayaranAir/sdk/.cxx/RelWithDebInfo/2z2i3p4a/x86_64/CMakeFiles/opencv_jni_shared.dir
+D:/Project/admin/PembayaranAir/sdk/.cxx/RelWithDebInfo/2z2i3p4a/x86_64/CMakeFiles/edit_cache.dir
+D:/Project/admin/PembayaranAir/sdk/.cxx/RelWithDebInfo/2z2i3p4a/x86_64/CMakeFiles/rebuild_cache.dir

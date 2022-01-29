@@ -1,0 +1,2 @@
+ninja: Entering directory `D:\Project\admin\PembayaranAir\sdk\.cxx\Debug\5c6g5439\x86'
+ninja: no work to do.

@@ -1,0 +1,346 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.entri.pembayaranair"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+11-->[com.firebaseui:firebase-ui-database:6.2.1] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\38b56b0ef67705f1b96d26d55779be26\jetified-firebase-ui-database-6.2.1\AndroidManifest.xml:11:5-67
+11-->[com.firebaseui:firebase-ui-database:6.2.1] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\38b56b0ef67705f1b96d26d55779be26\jetified-firebase-ui-database-6.2.1\AndroidManifest.xml:11:22-64
+12    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-database:19.3.1] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\6ae2d636d1b0a123e40b25bf192e7a20\jetified-firebase-database-19.3.1\AndroidManifest.xml:25:5-79
+13-->[com.google.firebase:firebase-database:19.3.1] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\6ae2d636d1b0a123e40b25bf192e7a20\jetified-firebase-database-19.3.1\AndroidManifest.xml:25:22-76
+14    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+14-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\3e73b2ae865c7ec691299e05e1699f15\jetified-firebase-iid-20.2.3\AndroidManifest.xml:24:5-68
+14-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\3e73b2ae865c7ec691299e05e1699f15\jetified-firebase-iid-20.2.3\AndroidManifest.xml:24:22-65
+15    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+15-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\3e73b2ae865c7ec691299e05e1699f15\jetified-firebase-iid-20.2.3\AndroidManifest.xml:26:5-82
+15-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\3e73b2ae865c7ec691299e05e1699f15\jetified-firebase-iid-20.2.3\AndroidManifest.xml:26:22-79
+16
+17    <application
+17-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:6:5-115:19
+18        android:allowBackup="true"
+18-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:7:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.1.0] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\b2b51ad2129f7ae88186ad90508b79ab\core-1.1.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:8:9-43
+22        android:label="Water Billing Pengelola"
+22-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:9:9-48
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:10:9-54
+24        android:supportsRtl="true"
+24-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:11:9-35
+25        android:testOnly="true"
+26        android:theme="@style/AppTheme" >
+26-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:12:9-40
+27        <activity
+27-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:14:9-25:20
+28            android:name="com.entri.pembayaranair.activity.MainActivity"
+28-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:15:13-50
+29            android:configChanges="keyboardHidden|orientation|screenSize"
+29-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:17:13-74
+30            android:screenOrientation="portrait"
+30-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:16:13-49
+31            android:windowSoftInputMode="adjustPan" >
+31-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:18:13-52
+32            <intent-filter>
+32-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:19:13-23:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:20:17-69
+33-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:20:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:22:17-77
+35-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:22:27-74
+36            </intent-filter>
+37        </activity>
+38        <activity
+38-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:27:9-31:55
+39            android:name="com.entri.pembayaranair.activity.UpdatePelangganActivity"
+39-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:28:13-61
+40            android:configChanges="keyboardHidden|orientation|screenSize"
+40-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:29:13-74
+41            android:screenOrientation="portrait"
+41-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:30:13-49
+42            android:windowSoftInputMode="adjustPan" />
+42-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:31:13-52
+43        <activity
+43-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:33:9-37:55
+44            android:name="com.entri.pembayaranair.activity.ShowUpdateActivity"
+44-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:34:13-56
+45            android:configChanges="keyboardHidden|orientation|screenSize"
+45-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:35:13-74
+46            android:screenOrientation="portrait"
+46-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:36:13-49
+47            android:windowSoftInputMode="adjustPan" />
+47-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:37:13-52
+48        <activity
+48-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:39:9-43:55
+49            android:name="com.entri.pembayaranair.activity.UbahBiayaActivity"
+49-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:40:13-55
+50            android:configChanges="keyboardHidden|orientation|screenSize"
+50-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:41:13-74
+51            android:screenOrientation="portrait"
+51-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:42:13-49
+52            android:windowSoftInputMode="adjustPan" />
+52-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:43:13-52
+53        <activity
+53-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:45:9-50:20
+54            android:name="com.entri.pembayaranair.activity.LoginActivity"
+54-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:46:13-51
+55            android:configChanges="keyboardHidden|orientation|screenSize"
+55-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:47:13-74
+56            android:screenOrientation="portrait"
+56-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:48:13-49
+57            android:windowSoftInputMode="adjustPan" >
+57-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:49:13-52
+58        </activity>
+59        <activity
+59-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:53:9-57:55
+60            android:name="com.entri.pembayaranair.activity.RegisterActivity"
+60-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:54:13-54
+61            android:configChanges="keyboardHidden|orientation|screenSize"
+61-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:55:13-74
+62            android:screenOrientation="portrait"
+62-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:56:13-49
+63            android:windowSoftInputMode="adjustPan" />
+63-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:57:13-52
+64        <activity
+64-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:58:9-62:55
+65            android:name="com.entri.pembayaranair.activity.RegAdminActivity"
+65-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:59:13-54
+66            android:configChanges="keyboardHidden|orientation|screenSize"
+66-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:60:13-74
+67            android:screenOrientation="portrait"
+67-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:61:13-49
+68            android:windowSoftInputMode="adjustPan" />
+68-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:62:13-52
+69        <activity
+69-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:64:9-66:52
+70            android:name="com.entri.pembayaranair.activity.ProfileActivity"
+70-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:65:13-53
+71            android:screenOrientation="portrait" />
+71-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:66:13-49
+72        <activity
+72-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:68:9-70:52
+73            android:name="com.entri.pembayaranair.activity.AboutUsActivity"
+73-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:69:13-53
+74            android:screenOrientation="portrait" />
+74-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:70:13-49
+75        <activity
+75-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:72:9-74:48
+76            android:name="com.entri.pembayaranair.activity.DataPelangganActivity"
+76-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:73:9-55
+77            android:screenOrientation="portrait" />
+77-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:74:9-45
+78        <activity
+78-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:76:9-78:52
+79            android:name="com.entri.pembayaranair.activity.DataTagihanActivity"
+79-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:77:13-57
+80            android:screenOrientation="portrait" />
+80-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:78:13-49
+81        <activity
+81-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:80:9-82:52
+82            android:name="com.entri.pembayaranair.activity.DataStatusActivity"
+82-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:81:13-56
+83            android:screenOrientation="portrait" />
+83-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:82:13-49
+84        <activity
+84-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:84:9-86:52
+85            android:name="com.entri.pembayaranair.activity.PembayaranAirActivity"
+85-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:85:13-59
+86            android:screenOrientation="portrait" />
+86-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:86:13-49
+87        <activity
+87-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:88:9-90:52
+88            android:name="com.entri.pembayaranair.activity.ShowPelanggan"
+88-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:89:13-51
+89            android:screenOrientation="portrait" />
+89-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:90:13-49
+90        <activity
+90-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:92:9-94:52
+91            android:name="com.entri.pembayaranair.activity.ProfileActivity2"
+91-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:93:13-54
+92            android:screenOrientation="portrait" />
+92-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:94:13-49
+93        <activity
+93-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:95:9-97:52
+94            android:name="com.entri.pembayaranair.activity.UploadActivity"
+94-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:96:13-52
+95            android:screenOrientation="portrait" />
+95-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:97:13-49
+96        <activity
+96-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:99:9-101:52
+97            android:name="com.entri.pembayaranair.activity.UbahBActivity"
+97-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:100:13-51
+98            android:screenOrientation="portrait" />
+98-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:101:13-49
+99        <activity
+99-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:103:9-105:52
+100            android:name="com.entri.pembayaranair.activity.HistoryBActivity"
+100-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:104:13-54
+101            android:screenOrientation="portrait" />
+101-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:105:13-49
+102        <activity
+102-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:107:9-109:52
+103            android:name="com.entri.pembayaranair.activity.UbahBPelActivity"
+103-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:108:13-54
+104            android:screenOrientation="portrait" />
+104-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:109:13-49
+105        <activity
+105-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:111:9-113:52
+106            android:name="com.entri.pembayaranair.activity.DataTransaksi2Activity"
+106-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:112:13-60
+107            android:screenOrientation="portrait" />
+107-->D:\Project\admin\PembayaranAir\app\src\main\AndroidManifest.xml:113:13-49
+108
+109        <service
+109-->[com.google.firebase:firebase-database:19.3.1] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\6ae2d636d1b0a123e40b25bf192e7a20\jetified-firebase-database-19.3.1\AndroidManifest.xml:29:9-35:19
+110            android:name="com.google.firebase.components.ComponentDiscoveryService"
+110-->[com.google.firebase:firebase-database:19.3.1] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\6ae2d636d1b0a123e40b25bf192e7a20\jetified-firebase-database-19.3.1\AndroidManifest.xml:30:13-84
+111            android:directBootAware="true"
+111-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\9f50104a3ed305ca2fc55bd80a29800d\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+112            android:exported="false" >
+112-->[com.google.firebase:firebase-database:19.3.1] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\6ae2d636d1b0a123e40b25bf192e7a20\jetified-firebase-database-19.3.1\AndroidManifest.xml:31:13-37
+113            <meta-data
+113-->[com.google.firebase:firebase-database:19.3.1] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\6ae2d636d1b0a123e40b25bf192e7a20\jetified-firebase-database-19.3.1\AndroidManifest.xml:32:13-34:85
+114                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+114-->[com.google.firebase:firebase-database:19.3.1] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\6ae2d636d1b0a123e40b25bf192e7a20\jetified-firebase-database-19.3.1\AndroidManifest.xml:33:17-109
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[com.google.firebase:firebase-database:19.3.1] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\6ae2d636d1b0a123e40b25bf192e7a20\jetified-firebase-database-19.3.1\AndroidManifest.xml:34:17-82
+116            <meta-data
+116-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\b338bb93c259f5f56bb62754a45d233c\jetified-firebase-storage-19.1.1\AndroidManifest.xml:33:13-35:85
+117                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+117-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\b338bb93c259f5f56bb62754a45d233c\jetified-firebase-storage-19.1.1\AndroidManifest.xml:34:17-107
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\b338bb93c259f5f56bb62754a45d233c\jetified-firebase-storage-19.1.1\AndroidManifest.xml:35:17-82
+119            <meta-data
+119-->[com.google.firebase:firebase-messaging:20.2.3] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\dd9bd67fcfc9fd654c742c6e88c166b9\jetified-firebase-messaging-20.2.3\AndroidManifest.xml:39:13-41:85
+120                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+120-->[com.google.firebase:firebase-messaging:20.2.3] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\dd9bd67fcfc9fd654c742c6e88c166b9\jetified-firebase-messaging-20.2.3\AndroidManifest.xml:40:17-119
+121                android:value="com.google.firebase.components.ComponentRegistrar" />
+121-->[com.google.firebase:firebase-messaging:20.2.3] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\dd9bd67fcfc9fd654c742c6e88c166b9\jetified-firebase-messaging-20.2.3\AndroidManifest.xml:41:17-82
+122            <meta-data
+122-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\3e73b2ae865c7ec691299e05e1699f15\jetified-firebase-iid-20.2.3\AndroidManifest.xml:32:13-34:85
+123                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+123-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\3e73b2ae865c7ec691299e05e1699f15\jetified-firebase-iid-20.2.3\AndroidManifest.xml:33:17-96
+124                android:value="com.google.firebase.components.ComponentRegistrar" />
+124-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\3e73b2ae865c7ec691299e05e1699f15\jetified-firebase-iid-20.2.3\AndroidManifest.xml:34:17-82
+125            <meta-data
+125-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\5306169e9b9062d38fa263bfb2c928d9\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:28:13-30:85
+126                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+126-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\5306169e9b9062d38fa263bfb2c928d9\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:29:17-115
+127                android:value="com.google.firebase.components.ComponentRegistrar" />
+127-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\5306169e9b9062d38fa263bfb2c928d9\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:30:17-82
+128            <meta-data
+128-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\d779862833b2e38d034774aebdb702cf\jetified-firebase-installations-16.3.2\AndroidManifest.xml:17:13-19:85
+129                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+129-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\d779862833b2e38d034774aebdb702cf\jetified-firebase-installations-16.3.2\AndroidManifest.xml:18:17-127
+130                android:value="com.google.firebase.components.ComponentRegistrar" />
+130-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\d779862833b2e38d034774aebdb702cf\jetified-firebase-installations-16.3.2\AndroidManifest.xml:19:17-82
+131        </service>
+132        <!--
+133             FirebaseMessagingService performs security checks at runtime,
+134             but set to not exported to explicitly avoid allowing another app to call it.
+135        -->
+136        <service
+136-->[com.google.firebase:firebase-messaging:20.2.3] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\dd9bd67fcfc9fd654c742c6e88c166b9\jetified-firebase-messaging-20.2.3\AndroidManifest.xml:28:9-35:19
+137            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+137-->[com.google.firebase:firebase-messaging:20.2.3] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\dd9bd67fcfc9fd654c742c6e88c166b9\jetified-firebase-messaging-20.2.3\AndroidManifest.xml:29:13-82
+138            android:directBootAware="true"
+138-->[com.google.firebase:firebase-messaging:20.2.3] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\dd9bd67fcfc9fd654c742c6e88c166b9\jetified-firebase-messaging-20.2.3\AndroidManifest.xml:30:13-43
+139            android:exported="false" >
+139-->[com.google.firebase:firebase-messaging:20.2.3] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\dd9bd67fcfc9fd654c742c6e88c166b9\jetified-firebase-messaging-20.2.3\AndroidManifest.xml:31:13-37
+140            <intent-filter android:priority="-500" >
+140-->[com.google.firebase:firebase-messaging:20.2.3] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\dd9bd67fcfc9fd654c742c6e88c166b9\jetified-firebase-messaging-20.2.3\AndroidManifest.xml:32:13-34:29
+140-->[com.google.firebase:firebase-messaging:20.2.3] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\dd9bd67fcfc9fd654c742c6e88c166b9\jetified-firebase-messaging-20.2.3\AndroidManifest.xml:32:28-51
+141                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+141-->[com.google.firebase:firebase-messaging:20.2.3] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\dd9bd67fcfc9fd654c742c6e88c166b9\jetified-firebase-messaging-20.2.3\AndroidManifest.xml:33:17-78
+141-->[com.google.firebase:firebase-messaging:20.2.3] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\dd9bd67fcfc9fd654c742c6e88c166b9\jetified-firebase-messaging-20.2.3\AndroidManifest.xml:33:25-75
+142            </intent-filter>
+143        </service>
+144
+145        <receiver
+145-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\3e73b2ae865c7ec691299e05e1699f15\jetified-firebase-iid-20.2.3\AndroidManifest.xml:37:9-44:20
+146            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+146-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\3e73b2ae865c7ec691299e05e1699f15\jetified-firebase-iid-20.2.3\AndroidManifest.xml:38:13-78
+147            android:exported="true"
+147-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\3e73b2ae865c7ec691299e05e1699f15\jetified-firebase-iid-20.2.3\AndroidManifest.xml:39:13-36
+148            android:permission="com.google.android.c2dm.permission.SEND" >
+148-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\3e73b2ae865c7ec691299e05e1699f15\jetified-firebase-iid-20.2.3\AndroidManifest.xml:40:13-73
+149            <intent-filter>
+149-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\3e73b2ae865c7ec691299e05e1699f15\jetified-firebase-iid-20.2.3\AndroidManifest.xml:41:13-43:29
+150                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+150-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\3e73b2ae865c7ec691299e05e1699f15\jetified-firebase-iid-20.2.3\AndroidManifest.xml:42:17-81
+150-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\3e73b2ae865c7ec691299e05e1699f15\jetified-firebase-iid-20.2.3\AndroidManifest.xml:42:25-78
+151            </intent-filter>
+152        </receiver>
+153
+154        <activity
+154-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\d7df73591dc571468c186fdd2a992bad\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+155            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+155-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\d7df73591dc571468c186fdd2a992bad\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+156            android:exported="false"
+156-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\d7df73591dc571468c186fdd2a992bad\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+157            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+157-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\d7df73591dc571468c186fdd2a992bad\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+158
+159        <provider
+159-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\9f50104a3ed305ca2fc55bd80a29800d\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+160            android:name="com.google.firebase.provider.FirebaseInitProvider"
+160-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\9f50104a3ed305ca2fc55bd80a29800d\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+161            android:authorities="com.entri.pembayaranair.firebaseinitprovider"
+161-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\9f50104a3ed305ca2fc55bd80a29800d\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+162            android:exported="false"
+162-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\9f50104a3ed305ca2fc55bd80a29800d\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+163            android:initOrder="100" />
+163-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\9f50104a3ed305ca2fc55bd80a29800d\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+164
+165        <meta-data
+165-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\ad072bd06501b4ced252e97ed9ee745e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+166            android:name="com.google.android.gms.version"
+166-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\ad072bd06501b4ced252e97ed9ee745e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+167            android:value="@integer/google_play_services_version" />
+167-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\ad072bd06501b4ced252e97ed9ee745e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+168
+169        <service
+169-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\d5a682cedb4d3857fe701725736f7c97\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:29:9-35:19
+170            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+170-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\d5a682cedb4d3857fe701725736f7c97\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:30:13-103
+171            android:exported="false" >
+171-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\d5a682cedb4d3857fe701725736f7c97\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:31:13-37
+172            <meta-data
+172-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\d5a682cedb4d3857fe701725736f7c97\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:32:13-34:39
+173                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+173-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\d5a682cedb4d3857fe701725736f7c97\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:33:17-94
+174                android:value="cct" />
+174-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\d5a682cedb4d3857fe701725736f7c97\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:34:17-36
+175        </service>
+176        <service
+176-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\59f77f167f08297046aaa1a76f60e3e2\jetified-transport-runtime-2.2.0\AndroidManifest.xml:26:9-30:19
+177            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+177-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\59f77f167f08297046aaa1a76f60e3e2\jetified-transport-runtime-2.2.0\AndroidManifest.xml:27:13-117
+178            android:exported="false"
+178-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\59f77f167f08297046aaa1a76f60e3e2\jetified-transport-runtime-2.2.0\AndroidManifest.xml:28:13-37
+179            android:permission="android.permission.BIND_JOB_SERVICE" >
+179-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\59f77f167f08297046aaa1a76f60e3e2\jetified-transport-runtime-2.2.0\AndroidManifest.xml:29:13-69
+180        </service>
+181
+182        <receiver
+182-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\59f77f167f08297046aaa1a76f60e3e2\jetified-transport-runtime-2.2.0\AndroidManifest.xml:32:9-34:40
+183            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+183-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\59f77f167f08297046aaa1a76f60e3e2\jetified-transport-runtime-2.2.0\AndroidManifest.xml:33:13-132
+184            android:exported="false" />
+184-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Enrico\.gradle\caches\transforms-2\files-2.1\59f77f167f08297046aaa1a76f60e3e2\jetified-transport-runtime-2.2.0\AndroidManifest.xml:34:13-37
+185    </application>
+186
+187</manifest>

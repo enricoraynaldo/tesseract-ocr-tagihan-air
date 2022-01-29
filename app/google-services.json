@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "772221959664",
+    "firebase_url": "https://pembayaran-air-90c31.firebaseio.com",
+    "project_id": "pembayaran-air-90c31",
+    "storage_bucket": "pembayaran-air-90c31.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772221959664:android:5c15b4685cd500c0f6b135",
+        "android_client_info": {
+          "package_name": "com.entri.pembayaranair"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "772221959664-5d8jqrpci0lpqdg2ff0ec7cs4oga6lgm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBvJHi-tN-bz9q4l58KOBzcxlqW_pnk2A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "772221959664-5d8jqrpci0lpqdg2ff0ec7cs4oga6lgm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

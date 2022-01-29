@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgair">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarHeader"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:elevation="5dp"
+            android:fitsSystemWindows="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="25dp"
+            android:elevation="5dp"
+            android:text="Ganti Password"
+            android:textColor="#4682B4"
+            android:textSize="28sp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="134dp"
+            android:layout_height="134dp"
+            android:layout_below="@+id/toolbarHeader"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="-70dp"
+            android:layout_marginTop="70dp"
+            android:src="@drawable/circletransparant" />
+
+        <ImageView
+            android:layout_width="134dp"
+            android:layout_height="134dp"
+            android:layout_below="@+id/toolbarHeader"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="-100dp"
+            android:src="@drawable/circletransparant" />
+
+        <ImageView
+            android:id="@+id/circle4"
+            android:layout_width="134dp"
+            android:layout_height="134dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="-100dp"
+            android:layout_marginBottom="50dp"
+            android:src="@drawable/circletransparant" />
+
+        <ImageView
+            android:layout_width="182dp"
+            android:layout_height="182dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="-80dp"
+            android:layout_marginBottom="90dp"
+            android:src="@drawable/circletransparant" />
+
+        <ImageView
+            android:layout_width="134dp"
+            android:layout_height="134dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="-50dp"
+            android:layout_marginBottom="-50dp"
+            android:layout_toEndOf="@+id/circle4"
+            android:src="@drawable/circletransparant" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="510dp"
+            android:layout_below="@+id/toolbarHeader"
+            android:layout_centerInParent="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="3dp"
+                    app:strokeColor="#1E90FF"
+                    app:cardBackgroundColor="#87CEFA"
+                    app:strokeWidth="2dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="25dp"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/reg_nama"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Masukkan Nama"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp">
+
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/reg_username"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Masukkan Username"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="text" />
+
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/reg_password"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Password Sebelumnya"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="textPassword" />
+
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/reg_passwordbaru"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Password Baru"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="textPassword" />
+
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="120dp"
+                        android:layout_marginEnd="30dp">
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/ganti"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="8dp"
+                            android:text="Ganti"
+                            android:textColor="@android:color/white"
+                            android:textSize="16sp"
+                            android:theme="@style/Theme.MaterialComponents.Light"
+                            app:backgroundTint="#1E90FF"
+                            app:cornerRadius="50dp" />
+
+                    </RelativeLayout>
+
+                    <Button
+                        android:id="@+id/lupapass"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|end"
+                        android:layout_below="@+id/masuk"
+                        android:layout_marginEnd="10dp"
+                        android:background="@android:color/transparent"
+                        android:text="Lupa Password klik disini."
+                        android:textAllCaps="false"
+                        android:textColor="#92A7AB"
+                        android:textSize="12sp"
+                        app:cornerRadius="50dp" />
+
+                </com.google.android.material.card.MaterialCardView>
+
+            </RelativeLayout>
+
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:text="© Water Billing by Entri"
+            android:textColor="#92A7AB"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

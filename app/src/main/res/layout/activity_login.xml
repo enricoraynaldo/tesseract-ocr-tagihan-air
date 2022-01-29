@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgair">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarHeader"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:elevation="5dp"
+            android:fitsSystemWindows="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="65dp"
+            android:elevation="5dp"
+            android:text="Water Billing"
+            android:textAlignment="center"
+            android:textColor="#5EB4E1"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="134dp"
+            android:layout_height="134dp"
+            android:layout_below="@+id/toolbarHeader"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="-70dp"
+            android:layout_marginTop="70dp"
+            android:src="@drawable/circletransparant" />
+
+        <ImageView
+            android:layout_width="134dp"
+            android:layout_height="134dp"
+            android:layout_below="@+id/toolbarHeader"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="-100dp"
+            android:src="@drawable/circletransparant" />
+
+        <ImageView
+            android:id="@+id/circle4"
+            android:layout_width="134dp"
+            android:layout_height="134dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="-100dp"
+            android:layout_marginBottom="50dp"
+            android:src="@drawable/circletransparant" />
+
+        <ImageView
+            android:layout_width="182dp"
+            android:layout_height="182dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="-80dp"
+            android:layout_marginBottom="90dp"
+            android:src="@drawable/circletransparant" />
+
+        <ImageView
+            android:layout_width="134dp"
+            android:layout_height="134dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="-50dp"
+            android:layout_marginBottom="-50dp"
+            android:layout_toEndOf="@+id/circle4"
+            android:src="@drawable/circletransparant" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_centerInParent="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="3dp"
+                    app:strokeColor="#AFEEEE"
+                    app:cardBackgroundColor="#AAD9FF"
+                    app:strokeWidth="2dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/username"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginEnd="10dp">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:backgroundTint="#1E90FF"
+                                android:drawableStart="@drawable/ic_email"
+                                android:hint="     Masukkan Username"
+                                android:imeOptions="actionNext"
+                                android:inputType="textEmailAddress"
+                                android:maxLines="1"
+                                android:textSize="16sp" />
+
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/password"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp"
+                            app:passwordToggleEnabled="true">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:backgroundTint="#1E90FF"
+                                android:drawableStart="@drawable/ic_password"
+                                android:hint="     Password"
+                                android:imeOptions="actionNext"
+                                android:inputType="textPassword"
+                                android:maxLines="1"
+                                android:textSize="16sp" />
+
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginEnd="30dp">
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/masuk"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end|bottom"
+                            android:layout_margin="8dp"
+                            android:text="Login"
+                            android:textColor="@android:color/white"
+                            android:textSize="16sp"
+                            android:theme="@style/Theme.MaterialComponents.Light"
+                            app:backgroundTint="#1E90FF"
+                            app:cornerRadius="50dp" />
+
+                        <Button
+                            android:id="@+id/ganti"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|end"
+                            android:layout_below="@+id/masuk"
+                            android:layout_marginEnd="10dp"
+                            android:background="@android:color/transparent"
+                            android:text="Lupa Password atau Ganti Password klik disini."
+                            android:textAllCaps="false"
+                            android:textColor="#92A7AB"
+                            android:textSize="12sp"
+                            app:cornerRadius="50dp" />
+
+                    </RelativeLayout>
+
+                    <Button
+                        android:id="@+id/reg_adm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="38dp"
+                        android:layout_gravity="bottom|start"
+                        android:layout_marginStart="23dp"
+                        android:background="@android:color/transparent"
+                        android:text="Daftar admin"
+                        android:textAllCaps="false"
+                        android:textColor="#808080"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        app:cornerRadius="50dp" />
+
+                    <Button
+                        android:id="@+id/ke_daftar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|end"
+                        android:layout_marginEnd="23dp"
+                        android:background="@android:color/transparent"
+                        android:text="Daftar Pelanggan"
+                        android:textAllCaps="false"
+                        android:textColor="#FF0000"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        app:cornerRadius="50dp" />
+
+                </com.google.android.material.card.MaterialCardView>
+
+            </RelativeLayout>
+
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:text="© Water Billing by Entri"
+            android:textColor="#92A7AB"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

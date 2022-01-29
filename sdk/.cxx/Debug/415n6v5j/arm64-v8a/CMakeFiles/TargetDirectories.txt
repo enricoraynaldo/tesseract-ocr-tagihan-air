@@ -1,0 +1,3 @@
+D:/Project/New folder (2)/PembayaranAir/sdk/.cxx/Debug/415n6v5j/arm64-v8a/CMakeFiles/opencv_jni_shared.dir
+D:/Project/New folder (2)/PembayaranAir/sdk/.cxx/Debug/415n6v5j/arm64-v8a/CMakeFiles/edit_cache.dir
+D:/Project/New folder (2)/PembayaranAir/sdk/.cxx/Debug/415n6v5j/arm64-v8a/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.rmtheis:tess-two:8.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradlenew/caches/transforms-3/de5f99722cd54c10a5acc6d5bba69920/transformed/jetified-tess-two-8.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradlenew/caches/transforms-3/929561e8bacb0abf7f645cc8d5a0b479/transformed/jetified-tess-two-8.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradlenew/caches/transforms-3/929561e8bacb0abf7f645cc8d5a0b479/transformed/jetified-tess-two-8.0.0/res" />
+      <root url="file://$USER_HOME$/.gradlenew/caches/transforms-3/929561e8bacb0abf7f645cc8d5a0b479/transformed/jetified-tess-two-8.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradlenew/caches/modules-2/files-2.1/com.rmtheis/tess-two/8.0.0/5d2fe70ffdcde87f697edcb6b0626d35aa0a6716/tess-two-8.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradlenew/caches/modules-2/files-2.1/com.rmtheis/tess-two/8.0.0/4977498c4778dd79efd2b11c2cf31a3c7dfa7bdc/tess-two-8.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Project/New folder (2)/PembayaranAir/app/src/main/res/layout/activity_pembayaranair.xml" value="0.25416666666666665" />
+        <entry key="..\:/Project/New folder (2)/PembayaranAir/app/src/main/res/layout/activity_showpelanggan.xml" value="0.25416666666666665" />
+        <entry key="..\:/Project/New folder (2)/PembayaranAir/app/src/main/res/layout/activity_showupdate.xml" value="0.25416666666666665" />
+        <entry key="..\:/Project/New folder (2)/PembayaranAir/app/src/main/res/layout/activity_ubahbiaya.xml" value="0.25416666666666665" />
+        <entry key="..\:/Project/New folder (2)/PembayaranAir/app/src/main/res/layout/activity_upload.xml" value="0.25416666666666665" />
+        <entry key="..\:/Project/New folder (2)/PembayaranAir/app/src/main/res/layout/list_pelanggan.xml" value="0.25416666666666665" />
+        <entry key="..\:/Project/New folder (2)/PembayaranAir/app/src/main/res/layout/list_status.xml" value="0.22554347826086957" />
+        <entry key="..\:/Project/New folder (2)/PembayaranAir/app/src/main/res/layout/list_tagihan.xml" value="0.25416666666666665" />
+        <entry key="..\:/Project/New folder (2)/PembayaranAir/app/src/main/res/layout/list_transaksi.xml" value="0.25416666666666665" />
+        <entry key="..\:/Project/New folder (2)/PembayaranAir/app/src/main/res/layout/list_ubahb.xml" value="0.25416666666666665" />
+        <entry key="..\:/Project/admin/PembayaranAir/app/src/main/res/drawable-xxhdpi/ic_baseline_image.xml" value="0.11666666666666667" />
+        <entry key="..\:/Project/admin/PembayaranAir/app/src/main/res/layout/activity_aboutus.xml" value="0.2078804347826087" />
+        <entry key="..\:/Project/admin/PembayaranAir/app/src/main/res/layout/activity_login.xml" value="0.16" />
+        <entry key="..\:/Project/admin/PembayaranAir/app/src/main/res/layout/activity_main.xml" value="0.12360688956433637" />
+        <entry key="..\:/Project/admin/PembayaranAir/app/src/main/res/layout/activity_pembayaranair.xml" value="0.2" />
+        <entry key="..\:/Project/admin/PembayaranAir/app/src/main/res/layout/activity_ubahb.xml" value="0.25416666666666665" />
+        <entry key="..\:/Project/admin/PembayaranAir/app/src/main/res/layout/activity_ubahbiaya.xml" value="0.25416666666666665" />
+        <entry key="..\:/Project/admin/PembayaranAir/app/src/main/res/layout/activity_ubahbpel.xml" value="0.25416666666666665" />
+        <entry key="..\:/Project/admin/PembayaranAir/app/src/main/res/layout/activity_updatepel.xml" value="0.25416666666666665" />
+        <entry key="..\:/Project/admin/PembayaranAir/app/src/main/res/layout/activity_updpelanggan.xml" value="0.264" />
+        <entry key="..\:/Project/admin/PembayaranAir/app/src/main/res/layout/activity_upload.xml" value="0.25416666666666665" />
+        <entry key="..\:/Project/admin/PembayaranAir/app/src/main/res/layout/list_pelanggan.xml" value="0.12360688956433637" />
+        <entry key="..\:/Project/admin/PembayaranAir/app/src/main/res/layout/list_status.xml" value="0.12360688956433637" />
+        <entry key="..\:/Project/admin/PembayaranAir/app/src/main/res/layout/list_tagihan.xml" value="0.2624254473161034" />
+        <entry key="..\:/Project/admin/PembayaranAir/app/src/main/res/layout/single_view_layout.xml" value="0.20516304347826086" />
+        <entry key="..\:/Project/admin/PembayaranAir/app/src/main/res/layout/single_view_layout1.xml" value="0.12360688956433637" />
+        <entry key="..\:/Project/admin/PembayaranAir/app/src/main/res/layout/single_view_layout2.xml" value="0.176" />
+        <entry key="..\:/Project/admin/PembayaranAir/app/src/main/res/menu/menu_main.xml" value="0.152" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

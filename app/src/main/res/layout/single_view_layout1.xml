@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="30dp"
+    android:layout_width="match_parent"
+    android:background="#AAD9FF">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="vertical"
+        android:background="#AAD9FF">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tvblok"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="0.5"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/tvname"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="0.5"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/tvmawal"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="0.5"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/tvmakhir"
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="0.5"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/tvperiode"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="0.5"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/tvtotal_tagihan"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="0.5"
+                android:background="@drawable/cell_shape"
+                android:gravity="center"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
